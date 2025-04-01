@@ -76,7 +76,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .menu-toggle {
     border: none;
     background: none;
@@ -112,5 +112,41 @@
 
   main.expanded {
     grid-template-columns: 1fr 0fr;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+  main {
+    justify-content: flex-start;
+  }
+  #songs-list.visible {
+    display: block;
+    flex: 0.2;
+    animation: slideInLeft 0.5s ease-in forwards;
+  }
+  #songs-list:not(.visible) {
+    animation: slideOutLeft 0.5s ease-out forwards;
+  }
+
+  #content {
+    display: block;
+    flex: 1;
+  }
+}
+
+@media (min-width: 1800px) {
+  .menu-toggle {
+    visibility: hidden;
+  }
+
+  #songs-list.visible,
+  #songs-list:not(.visible) {
+    display: block;
+    flex: 0.2;
+  }
+
+  #content {
+    display: block;
+    flex: 1;
   }
 }
