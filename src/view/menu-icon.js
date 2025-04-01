@@ -7,8 +7,10 @@ export class MenuIcon {
   }
 
   click() {
-    const songsList = document.getElementById("songs-list");
-    songsList.classList.toggle("visible");
+    const mainContent = document.getElementsByTagName("main")[0];
+    Array.from(mainContent.children).forEach((el) => {
+      el.classList.toggle("visible");
+    });
 
     this.element.classList.toggle("active");
     setTimeout(() => {

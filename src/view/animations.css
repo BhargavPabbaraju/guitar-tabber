@@ -2,7 +2,7 @@
   visibility: hidden;
 }
 
-@keyframes slideIn {
+@keyframes slideInLeft {
   from {
     transform: translateX(-100%);
     opacity: 0;
@@ -15,7 +15,7 @@
   }
 }
 
-@keyframes slideOut {
+@keyframes slideOutLeft {
   from {
     transform: translateX(0);
     opacity: 1;
@@ -23,6 +23,32 @@
   }
   to {
     transform: translateX(-100%);
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+    display: none;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+    display: block;
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+    display: block;
+  }
+  to {
+    transform: translateX(100%);
     opacity: 0;
     display: none;
   }
@@ -55,6 +81,7 @@
     border: none;
     background: none;
     cursor: pointer;
+    display: block;
     transition:
       opacity 0.3s ease,
       transform 0.3s ease;
@@ -69,9 +96,21 @@
 
   #songs-list.visible {
     display: block;
-    animation: slideIn 0.5s ease-in forwards;
+    animation: slideInLeft 0.5s ease-in forwards;
   }
   #songs-list:not(.visible) {
-    animation: slideOut 0.5s ease-out forwards;
+    animation: slideOutLeft 0.5s ease-out forwards;
+  }
+
+  #content.visible {
+    display: block;
+    animation: slideInRight 0.5s ease-in forwards;
+  }
+  #content:not(.visible) {
+    animation: slideOutRight 0.5s ease-out forwards;
+  }
+
+  main.expanded {
+    grid-template-columns: 1fr 0fr;
   }
 }

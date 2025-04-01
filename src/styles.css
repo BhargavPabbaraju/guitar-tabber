@@ -8,7 +8,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 0.1fr 0.8fr 0.1fr;
+  /* grid-template-rows: 0.1fr 0.8fr 0.1fr; */
   font-size: var(--fs);
   margin: 0;
 }
@@ -67,7 +67,7 @@ h3 {
   }
 
   main {
-    height: 95vh;
+    height: 90vh;
   }
   footer {
     height: 5vh;
