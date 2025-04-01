@@ -1,8 +1,10 @@
 import "./styles.css";
 import * as view from "./view";
+import { songs } from "./model/songs";
 
 const state = {
-  menuIsOpen: false,
+  songs: songs,
+  currentSong: songs[0].song_id,
 };
 
 window.state = state;
