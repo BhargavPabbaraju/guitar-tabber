@@ -1,0 +1,22 @@
+- Should be able to store tabs persistently
+    - Store them in browser cache? 
+    - Creata a databse in future and store user accounts?
+
+- For now, no user accounts , just group tabs by songs and persist the tabs of all songs for all users
+
+- Create, Update, Delete a song 
+
+- Create/Update tabs for a song
+
+- How will tabs be dispalyed?
+
+- How will tabs be stored and retrieved?
+    - Simple Text Files , no separation by string
+        - E5B4E79G1, etc
+            How to take pauses into account with this?
+        
+
+
+
+- How will tabs be input from the frontend?
+    - Not supporting this now, can be implemented in future.

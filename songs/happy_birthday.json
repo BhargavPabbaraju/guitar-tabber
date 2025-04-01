@@ -1,0 +1,172 @@
+{
+    "title": "Happy Birthday",
+    "link": "",
+    "tutorial":"",
+    "parts":[
+        {
+            "Lyrics": "Happy birthday to you",
+            "notes":[
+                {
+                    "string": "e",
+                    "fret": 0,
+                    "time":0,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 0,
+                    "time":0.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 2,
+                    "time":1,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":0,
+                    "time":1.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":5,
+                    "time":2.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":4,
+                    "time":3.0,
+                    "duration":0.5
+                }                
+            ]
+        },
+        {
+            "Lyrics": "Happy birthday to you",
+            "notes":[
+                {
+                    "string": "e",
+                    "fret": 0,
+                    "time":0,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 0,
+                    "time":0.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 2,
+                    "time":1,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":0,
+                    "time":1.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":7,
+                    "time":2.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":5,
+                    "time":3.0,
+                    "duration":0.5
+                }                
+            ]
+        },
+        {
+            "Lyrics": "Happy birthday to dear you",
+            "notes":[
+                {
+                    "string": "e",
+                    "fret": 0,
+                    "time":0,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 0,
+                    "time":0.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 9,
+                    "time":1,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":5,
+                    "time":1.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":4,
+                    "time":2.0,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":2,
+                    "time":2.0,
+                    "duration":0.5
+                }                
+            ]
+        },
+        {
+            "Lyrics": "Happy birthday to you",
+            "notes":[
+                {
+                    "string": "e",
+                    "fret": 10,
+                    "time":0,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 10,
+                    "time":0.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret": 9,
+                    "time":1,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":5,
+                    "time":1.5,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":7,
+                    "time":2.0,
+                    "duration":0.5
+                },
+                {
+                    "string": "e",
+                    "fret":5,
+                    "time":2.5,
+                    "duration":0.5
+                }                
+            ]
+        }
+    ]
+
+}
